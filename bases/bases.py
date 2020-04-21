@@ -55,7 +55,7 @@ def decode(digits, base):
     # print(decoded)
 
 
-print(decode('10', 2))
+print(decode('1110 1100', 2))
 print(decode('fff', 16))
 print(decode("1a2b", 32))
 
