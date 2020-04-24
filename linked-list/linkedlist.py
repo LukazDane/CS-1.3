@@ -234,7 +234,6 @@ class LinkedList(object):
                 # Unlink the found node from the next node
                 node.next = None
                 self.size -= 1
-                return self.out.data
             # Check if we found a node at the tail
             if node is self.tail:
                 # Check if there is a node before the found node
@@ -245,7 +244,6 @@ class LinkedList(object):
                 # Update tail to the previous node regardless
                 self.out = self.tail
                 self.tail = previous
-                return self.out.data
         else:
             # Otherwise raise an error to tell the user that delete has failed
             raise ValueError('Item not found: {}'.format(item))
