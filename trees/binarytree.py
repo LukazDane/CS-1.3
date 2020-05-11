@@ -366,6 +366,9 @@ class BinarySearchTree(object):
         # Return level-order list of all items in tree
         return items
 
+################
+# Stuck, check in with Shash before class
+################
     def _traverse_level_order_iterative(self, start_node, visit):
         """Traverse this binary tree with iterative level-order traversal (BFS).
         Start at the given node and visit each node with the given function.
